@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
             themeMode: themeController.isDarkMode
                 ? ThemeMode.dark
                 : ThemeMode.light,
+            // initial route is the home page
             initialRoute: AppRoutes.home,
             onGenerateRoute: AppRoutes.generateRoute,
           );
