@@ -15,10 +15,14 @@ class Drawer extends StatelessWidget {
         backgroundColor: AppColors.primaryTeal,
         title: const Text(
           'Settings',
-          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+          style: TextStyle(
+            fontSize: 25,
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+          ),
         ),
         elevation: 0,
-        centerTitle: true,
+        centerTitle: false,
         foregroundColor: Colors.white,
       ),
       body: ListView(
