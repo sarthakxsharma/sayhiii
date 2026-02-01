@@ -16,7 +16,7 @@ class Drawer extends StatelessWidget {
         title: const Text(
           'Settings',
           style: TextStyle(
-            fontSize: 25,
+            fontSize: 20,
             color: Colors.white,
             fontWeight: FontWeight.bold,
           ),

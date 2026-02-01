@@ -48,7 +48,7 @@ class _HomePageState extends State<HomePage> {
 
           style: TextStyle(
             color: Colors.white,
-            fontSize: 25,
+            fontSize: 20,
             fontWeight: FontWeight.bold,
           ),
         ),
@@ -380,7 +380,7 @@ class _HomePageState extends State<HomePage> {
                           foregroundColor: Colors.white,
                           disabledBackgroundColor: Colors.grey.shade400,
                           disabledForegroundColor: Colors.grey.shade600,
-                          padding: const EdgeInsets.symmetric(vertical: 18),
+                          padding: const EdgeInsets.symmetric(vertical: 13),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(12),
                           ),
