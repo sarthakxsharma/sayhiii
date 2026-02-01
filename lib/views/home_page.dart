@@ -402,7 +402,7 @@ class _HomePageState extends State<HomePage> {
                                 children: [
                                   const SizedBox(width: 8),
                                   Text(
-                                    'SayHi to WhatsApp',
+                                    'SayHi to WhatsApp.',
                                     style: Theme.of(context)
                                         .textTheme
                                         .titleMedium
